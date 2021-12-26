@@ -3,3 +3,10 @@
 ################################################################################
 
 /.vs
+/AwsDotNetCoreExamples/.vs/AwsDotNetCoreExamples/v17
+/AwsDotNetCoreExamples/AwsSqsCommon/obj
+/AwsDotNetCoreExamples/AwsSqsReceiver/obj
+/AwsDotNetCoreExamples/AwsSqsSender/obj
+/AwsDotNetCoreExamples/AwsSqsCommon/bin/Debug/net6.0
+/AwsDotNetCoreExamples/AwsSqsReceiver/bin/Debug/net6.0
+/AwsDotNetCoreExamples/AwsSqsSender/bin/Debug/net6.0

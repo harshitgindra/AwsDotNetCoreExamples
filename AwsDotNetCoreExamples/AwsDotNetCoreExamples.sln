@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwsSqsSender", "AwsSqsSender\AwsSqsSender.csproj", "{286E15E5-FBAD-4750-97DB-BBA1181F70C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwsSqsReceiver", "AwsSqsReceiver\AwsSqsReceiver.csproj", "{DE14F607-7B7B-4474-8504-B625CBF2E7FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwsSqsCommon", "AwsSqsCommon\AwsSqsCommon.csproj", "{B0D32DD2-FC8C-4B97-A1F2-256A68959935}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQS", "SQS", "{43A67942-3978-4B71-A46A-1D5258B59401}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{286E15E5-FBAD-4750-97DB-BBA1181F70C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286E15E5-FBAD-4750-97DB-BBA1181F70C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286E15E5-FBAD-4750-97DB-BBA1181F70C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286E15E5-FBAD-4750-97DB-BBA1181F70C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE14F607-7B7B-4474-8504-B625CBF2E7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE14F607-7B7B-4474-8504-B625CBF2E7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE14F607-7B7B-4474-8504-B625CBF2E7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE14F607-7B7B-4474-8504-B625CBF2E7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0D32DD2-FC8C-4B97-A1F2-256A68959935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D32DD2-FC8C-4B97-A1F2-256A68959935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D32DD2-FC8C-4B97-A1F2-256A68959935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D32DD2-FC8C-4B97-A1F2-256A68959935}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{286E15E5-FBAD-4750-97DB-BBA1181F70C1} = {43A67942-3978-4B71-A46A-1D5258B59401}
+		{DE14F607-7B7B-4474-8504-B625CBF2E7FB} = {43A67942-3978-4B71-A46A-1D5258B59401}
+		{B0D32DD2-FC8C-4B97-A1F2-256A68959935} = {43A67942-3978-4B71-A46A-1D5258B59401}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C479061-1AD3-4470-A325-C4E39649F5ED}
+	EndGlobalSection
+EndGlobal
